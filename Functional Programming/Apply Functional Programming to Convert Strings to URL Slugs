@@ -4,6 +4,7 @@ function urlSlug(title) {
     .toLowerCase()
     .trim()
     .split(/\s+/)
+
     .join("-") ;
 
 }
